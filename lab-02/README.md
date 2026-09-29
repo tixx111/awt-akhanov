@@ -2,6 +2,10 @@
 
 A Next.js 16 course catalog for the Advanced Web Technologies course.
 
+- **Student:** Akhanov Alisher
+- **Group:** IT3-2304
+- **Lab:** lab-02
+
 Lab 2 styling uses Tailwind CSS, shadcn/ui cards, responsive grids, and styled navigation.
 
 ## Included
@@ -19,3 +23,5 @@ Lab 2 styling uses Tailwind CSS, shadcn/ui cards, responsive grids, and styled n
 npm install
 npm run dev
 ```
+
+The application will be available at `http://localhost:3000`.
