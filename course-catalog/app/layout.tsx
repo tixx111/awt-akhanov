@@ -30,22 +30,22 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <Link href="/" className="text-lg font-bold text-indigo-700">
               Course Catalog
             </Link>
-            <div className="flex gap-5 text-sm font-medium text-slate-600">
+            <div className="flex gap-2 text-sm font-medium text-slate-600">
               <Link
                 href="/"
-                className="transition-colors hover:text-indigo-700"
+                className="rounded-md px-3 py-2 transition-colors hover:bg-slate-100 hover:text-indigo-700"
               >
                 Home
               </Link>
               <Link
                 href="/courses"
-                className="transition-colors hover:text-indigo-700"
+                className="rounded-md px-3 py-2 transition-colors hover:bg-slate-100 hover:text-indigo-700"
               >
                 Courses
               </Link>
               <Link
                 href="/about"
-                className="transition-colors hover:text-indigo-700"
+                className="rounded-md px-3 py-2 transition-colors hover:bg-slate-100 hover:text-indigo-700"
               >
                 About
               </Link>
